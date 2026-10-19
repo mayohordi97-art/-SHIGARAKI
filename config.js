@@ -14,27 +14,27 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['6285730659421'] //ur owner number
-global.ownername = "🦄AGUNG" //ur owner name
-global.ytname = "YT: Agung GT" //ur yt chanel name
-global.socialm = "GitHub: Agubgstore" //ur github or insta name
-global.location = "Indonesia" //ur location
+//carte de visite du propriétaire
+mondial.propriétaire de vcard = ['242061032249']
+mondial.nom du propriétaire = "Shigaraki"
+mondial.ytname = "YT : Shigaraki"
+mondial.social = "GitHub : Shigaraki"
+mondial.emplacement = "Congo Brazzaville"
 
-//bot bomdy 
-global.owner = ['6285730659421'] //ur number
-global.ownernomer = "6285730659421" //ur number
-global.ownertag = '6285730659421' //ur tag number
-global.premium = ['6288708212091'] //ur premium number
-global.botname = 'Trinex Bot' //ur bot name
-global.ownername = "🦄AGUNG"
-global.linkz = "https://youtu.be/WiIqCdiDjFo" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD5' //script link
-global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Sticker By AGUNG" //ur sticker watermark packname
-global.author = "Cheems Bot" //ur sticker watermark author
-global.wm = "Xeon Bot Inc." //ur watermark
-
+//bot bomdy
+mondial.propriétaire = ['242061032249']
+mondial.propriétaire = "242061032249"
+mondial.étiquette du propriétaire = 'Shigaraki 👑'
+mondial.prime = ['242061032249']
+mondial.nom du bot = 'SHIGARAKI'
+mondial.nom du propriétaire = "Shigaraki 👑"
+mondial.linkz = "https://wa.me/242061032249"
+mondial.site webx = "https://wa.me/242061032249"
+mondial.script de bot = 'https://github.com/mayoho/-SHIGARAKI'
+mondial.themeemoji = "👑"
+mondial.nom du pack = "SHIGARAKI"
+mondial.auteur = "Shigaraki"
+mondial.wm = "SHIGARAKI MD 👑"
 // Other
 global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
