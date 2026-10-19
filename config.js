@@ -12,22 +12,25 @@ global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.do
 global.doc4 = 'application/zip'
 global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
+ //owmner v card
+global.owner = ['242061032249']
+global.ownername = "Shigaraki"
+global.ytname = "YT: Shigaraki"
+global.socialm = "GitHub: Shigaraki"
+global.location = "Congo Brazzaville"
+global.ownernumber = ['242061032249']
+global.ownernomer = "242061032249"
+global.ownerTag = 'Shigaraki 👑'
+global.premium = ['242061032249']
+global.botname = 'SHIGARAKI'
+global.linkz = "https://wa.me/242061032249"
+global.websitex = "https://wa.me/242061032249"
+global.botscript = 'https://github.com/mayohordi97-art/-SHIGARAKI'
+global.packname = "SHIGARAKI"
+global.author = "Shigaraki"
+global.wm = "SHIGARAKI MD 👑"
+global.themeemoji = "👑"
 
-//owmner v card
-//carte de visite du propriétaire
-mondial.propriétaire de vcard = ['242061032249']
-mondial.nom du propriétaire = "Shigaraki"
-mondial.ytname = "YT : Shigaraki"
-mondial.social = "GitHub : Shigaraki"
-mondial.emplacement = "Congo Brazzaville"
-
-//bot bomdy
-mondial.propriétaire = ['242061032249']
-mondial.propriétaire = "242061032249"
-mondial.étiquette du propriétaire = 'Shigaraki 👑'
-mondial.prime = ['242061032249']
-mondial.nom du bot = 'SHIGARAKI'
-mondial.nom du propriétaire = "Shigaraki 👑"
 mondial.linkz = "https://wa.me/242061032249"
 mondial.site webx = "https://wa.me/242061032249"
 mondial.script de bot = 'https://github.com/mayoho/-SHIGARAKI'
