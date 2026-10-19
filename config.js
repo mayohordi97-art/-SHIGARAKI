@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-//aumto functioner
+//auto functioner
 global.autoTyping = true //auto tying in gc (true to on, false to off)
 global.autoRecord = true //auto recording (true to on, false to off)
 
@@ -12,7 +12,8 @@ global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.do
 global.doc4 = 'application/zip'
 global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
- //owmner v card
+
+//owmner v card
 global.owner = ['242061032249']
 global.ownername = "Shigaraki"
 global.ytname = "YT: Shigaraki"
@@ -23,67 +24,60 @@ global.ownernomer = "242061032249"
 global.ownerTag = 'Shigaraki 👑'
 global.premium = ['242061032249']
 global.botname = 'SHIGARAKI'
-global.linkz = "https://wa.me/242061032249"
-global.websitex = "https://wa.me/242061032249"
-global.botscript = 'https://github.com/mayohordi97-art/-SHIGARAKI'
+global.linkz = "https://whatsapp.com/channel/0029VbE42My0G0XbTkAIS91e"
+global.websitex = "https://whatsapp.com/channel/0029VbE42My0G0XbTkAIS91e"
+global.botscript = "https://whatsapp.com/channel/0029VbE42My0G0XbTkAIS91e"
 global.packname = "SHIGARAKI"
 global.author = "Shigaraki"
 global.wm = "SHIGARAKI MD 👑"
 global.themeemoji = "👑"
 
-mondial.linkz = "https://wa.me/242061032249"
-mondial.site webx = "https://wa.me/242061032249"
-mondial.script de bot = 'https://github.com/mayoho/-SHIGARAKI'
-mondial.themeemoji = "👑"
-mondial.nom du pack = "SHIGARAKI"
-mondial.auteur = "Shigaraki"
-mondial.wm = "SHIGARAKI MD 👑"
 // Other
 global.sessionName = 'session'
-global.prefa = ['','!','.','#','&']
+global.prefa = ['','.','!','#','&']
 global.sp = ''
 global.mess = {
     success: 'Done✓',
-    admin: 'This feature could be used by admins only!',
+    admin: 'This feature could be used by admin only!',
     botAdmin: 'Bot Must Be Admin First!',
-    premime: 'Premium Special Features If You Want to Register Type Rent',
-    owner: 'This feature could be used by owner only',
+    premime: 'Premium Special Features If You Want To Use This Feature!',
+    owner: 'This feature could be used by owner only!',
     group: 'Features Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
-    bot: 'This feature could be used by bot only',
+    bot: 'This feature could be used by bot only!',
     wait: 'In process...',
     linkm: 'Where is the link?',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    nsfw: 'The nsfw feature has not been activated, please contact the owner to activate it'
 }
 global.limitawal = {
     premium: "Infinity",
     free: 25
 }
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg")
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg")
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg")
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg")
+global.flaming = 'https://www6.flamingtext.com/net-fu/image64.php?script=flaming-logo&fontsize=100&text='
+global.fluming = 'https://www6.flamingtext.com/net-fu/image64.php?script=flaming-logo&fontsize=100&text='
+global.flarun = 'https://www6.flamingtext.com/net-fu/image64.php?script=flaming-logo&fontsize=100&text='
+global.flasmurf = 'https://www6.flamingtext.com/net-fu/image64.php?script=flaming-logo&fontsize=100&text='
 
 //module api
 module.exports = {
 api:{
-     removebg: ['zNKnayDFH1nugtA81fkPMzXn','5CyygkXiT5vrki2Z6ZsUCE8u','Mz4yJkagrCLotdgsr4Ms39ud','vEeWnzQws9kJoYNMYKhbT1s6','2arViktax9HUdMqy9U7wFLKT','sfZpRHNwVPAG57nZVHijYZ9v','oqVVyQ2rBDYdUrxThg4GdjhA','rGp4axHpQ56Y5tRLX7J789QC','NfPx6NgTkpVYLnKUZHCAM1P3'],//https://remove.bg/api
-     unscreen: ['N6J4Bjbyh2V4eqhAPTWYtFER','fcKJkPstNXp4pjntYt3bR38E'],
-     upscaling: '1255173112',
-     imgsuper: ['198f69d4b2msh0021bb0690669a6p1f3a80jsn9cab1ae485cc','85731a45bbmshf7bd86f09b300c2p14e544jsncd18a8d5dba2'],//https://super-image1.p.rapidapi.com/
-     speechtotext: ['897beebb3ac74ceeaa6f8d0903b2297a']
-   }
-   }
+    removebg: ['zNKnayDFH1nugtA81fkPMzXn','5Cyy'],
+    unscreen: ['N6J4Bjyh2V4eqhAPTWYtFER','fcKJ'],
+    upscaling: '1255173112',
+    imgsuper: ['198f69d4b2msh0021bb0690669a6p1f'],
+    speechtotext: ['897beebb3ac74ceeaa6f8d0903b']
+    }
+}
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
+    fs.unwatchFile(file)
+    console.log(chalk.redBright(`Update'${__filename}'`))
+    delete require.cache[file]
+    require(file)
 })
