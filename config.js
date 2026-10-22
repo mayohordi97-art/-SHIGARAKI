@@ -2,8 +2,8 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //auto functioner
-global.autoTyping = true //auto tying in gc (true to on, false to off)
-global.autoRecord = true //auto recording (true to on, false to off)
+global.autoTyping = true
+global.autoRecord = true
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -13,42 +13,44 @@ global.doc4 = 'application/zip'
 global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
-//owmner v card
+//owner v card
 global.owner = ['242061032249']
-global.ownername = "Shigaraki"
-global.ytname = "YT: Shigaraki"
-global.socialm = "GitHub: Shigaraki"
+global.ownername = "† sʜɪɢᴀʀᴀᴋɪ †"
+global.ytname = "YT: † sʜɪɢᴀʀᴀᴋɪ †"
+global.socialm = "GitHub: † sʜɪɢᴀʀᴀᴋɪ †"
 global.location = "Congo Brazzaville"
 global.ownernumber = ['242061032249']
 global.ownernomer = "242061032249"
-global.ownerTag = 'Shigaraki 👑'
+global.ownerTag = '† sʜɪɢᴀʀᴀᴋɪ †'
 global.premium = ['242061032249']
-global.botname = 'SHIGARAKI'
-global.linkz = "https://whatsapp.com/channel/0029VbE42My0G0XbTkAIS91e"
-global.websitex = "https://whatsapp.com/channel/0029VbE42My0G0XbTkAIS91e"
-global.botscript = "https://whatsapp.com/channel/0029VbE42My0G0XbTkAIS91e"
-global.packname = "SHIGARAKI"
-global.author = "Shigaraki"
-global.wm = "SHIGARAKI MD 👑"
-global.themeemoji = "👑"
+
+global.botname = '⚔ѕнιкα⚔'
+global.linkz = "https://whatsapp.com/channel/0029VbE42My0GXbTkAIS91e"
+global.websitex = "https://whatsapp.com/channel/0029VbE42My0GXbTkAIS91e"
+global.botscript = "https://whatsapp.com/channel/0029VbE42My0GXbTkAIS91e"
+global.packname = "⚔ѕнιкα⚔"
+global.author = "† sʜɪɢᴀʀᴀᴋɪ †"
+global.wm = "⚔ѕнιкα⚔ MD 👑"
+global.themeemoji = "⚔️"
+global.language = "fr"
 
 // Other
 global.sessionName = 'session'
 global.prefa = ['','.','!','#','&']
 global.sp = ''
 global.mess = {
-    success: 'Done✓',
-    admin: 'This feature could be used by admin only!',
-    botAdmin: 'Bot Must Be Admin First!',
-    premime: 'Premium Special Features If You Want To Use This Feature!',
-    owner: 'This feature could be used by owner only!',
-    group: 'Features Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature could be used by bot only!',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    nsfw: 'The nsfw feature has not been activated, please contact the owner to activate it'
+    success: '✅ Fait avec succès - ⚔ѕнιкα⚔',
+    admin: '⛔ Cette commande est réservée aux admins !',
+    botAdmin: '⛔ Je dois être admin pour faire ça !',
+    premime: '⛔ Fonction premium, contacte † sʜɪɢᴀʀᴀᴋɪ † !',
+    owner: '⛔ Réservé à mon créateur † sʜɪɢᴀʀᴀᴋɪ † !',
+    group: '⛔ Cette commande marche que dans les groupes !',
+    private: '⛔ Cette commande marche qu’en privé !',
+    bot: '⛔ Réservé au bot !',
+    wait: '⏳ Patiente... ⚔ѕнιкα⚔ travaille...',
+    linkm: 'Où est le lien ?',
+    endLimit: 'Ta limite journalière est finie, elle se réinitialise toutes les 12h',
+    nsfw: 'NSFW désactivé, contacte le proprio'
 }
 global.limitawal = {
     premium: "Infinity",
@@ -67,7 +69,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/image64.php?script=flamin
 module.exports = {
 api:{
     removebg: ['zNKnayDFH1nugtA81fkPMzXn','5Cyy'],
-    unscreen: ['N6J4Bjyh2V4eqhAPTWYtFER','fcKJ'],
+    unscreen: ['N6J4Bjyh2V4eqhAPTWYTtFER','fcKJ'],
     upscaling: '1255173112',
     imgsuper: ['198f69d4b2msh0021bb0690669a6p1f'],
     speechtotext: ['897beebb3ac74ceeaa6f8d0903b']
@@ -77,7 +79,7 @@ api:{
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
     fs.unwatchFile(file)
-    console.log(chalk.redBright(`Update'${__filename}'`))
+    console.log(chalk.redBright(`Update '${__filename}'`))
     delete require.cache[file]
     require(file)
 })
